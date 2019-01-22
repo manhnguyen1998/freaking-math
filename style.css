@@ -1,0 +1,52 @@
+body {
+    text-align: center;
+    font-size: 2rem;
+    font-family: 'Indie Flower', cursive;
+    background-color: green;
+    overflow: hidden;
+}
+
+img {
+    cursor: pointer;
+}
+
+img:hover {
+    background-color: #f5a5a8;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.5);
+}
+
+.score {
+    text-align: center;
+}
+
+.text {
+    position: relative;
+    right: -100%;
+}
+
+.start {
+    position: relative;
+}
+
+.time {
+    height: 10px;
+    background-color: green;
+    position: relative;
+    right: -100%;
+}
+.button {
+    position: relative;
+    right: -100%;
+}
+#start {
+    background-color: #ff5100;
+}
+#more {
+    background-color: #801043;
+}
+#right {
+    background-color: #d49e31;
+}
+#wrong {
+    background-color: #7200ff;
+}
